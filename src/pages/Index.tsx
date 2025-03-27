@@ -16,7 +16,8 @@ import {
   Gauge,
   ArrowUpRight,
   Award,
-  BarChart
+  BarChart,
+  ArrowRight
 } from "lucide-react";
 
 const Index = () => {

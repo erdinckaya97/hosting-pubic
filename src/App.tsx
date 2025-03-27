@@ -12,26 +12,11 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 
 const queryClient = new QueryClient();
 
 const App = () => {
-  // Add framer-motion as a dependency to enable animations
-  useEffect(() => {
-    const addFramerMotion = async () => {
-      if (!window.framerMotion) {
-        try {
-          window.framerMotion = await import("framer-motion");
-        } catch (error) {
-          console.error("Failed to load framer-motion:", error);
-        }
-      }
-    };
-    addFramerMotion();
-  }, []);
-
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
