@@ -163,7 +163,7 @@ const Index = () => {
             >
               <div className="mb-4 flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-semibold">Shared Hosting</h3>
+                  <h3 className="text-xl font-semibold">VPS Hosting</h3>
                   <p className="text-sm text-muted-foreground">Perfect for small websites</p>
                 </div>
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
@@ -171,13 +171,13 @@ const Index = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <span className="text-3xl font-bold">$4.99</span>
+                <span className="text-3xl font-bold">$39.99</span>
                 <span className="text-muted-foreground text-sm">/month</span>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
-                  10 GB SSD Storage
+                  120 GB SSD Storage
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
@@ -189,7 +189,7 @@ const Index = () => {
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
-                  5 Email Accounts
+                  Unlimited Email Accounts
                 </li>
               </ul>
               <Button asChild className="w-full">
@@ -210,7 +210,7 @@ const Index = () => {
               </div>
               <div className="mb-4 flex justify-between items-start pt-2">
                 <div>
-                  <h3 className="text-xl font-semibold">VPS Hosting</h3>
+                  <h3 className="text-xl font-semibold">Dedicated</h3>
                   <p className="text-sm text-muted-foreground">For growing businesses</p>
                 </div>
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
@@ -218,13 +218,13 @@ const Index = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <span className="text-3xl font-bold">$19.99</span>
+                <span className="text-3xl font-bold">$299.99</span>
                 <span className="text-muted-foreground text-sm">/month</span>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
-                  50 GB SSD Storage
+                  2x1 TB SSD Storage
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
@@ -236,7 +236,7 @@ const Index = () => {
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
-                  20 Email Accounts
+                  Unlimited Email Accounts
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
@@ -258,7 +258,7 @@ const Index = () => {
             >
               <div className="mb-4 flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-semibold">Dedicated Server</h3>
+                  <h3 className="text-xl font-semibold">CDN & Proxy</h3>
                   <p className="text-sm text-muted-foreground">For high-traffic sites</p>
                 </div>
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
@@ -266,13 +266,13 @@ const Index = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <span className="text-3xl font-bold">$99.99</span>
+                <span className="text-3xl font-bold">Custom</span>
                 <span className="text-muted-foreground text-sm">/month</span>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
-                  500 GB SSD Storage
+                  Unlimited SSD Storage
                 </li>
                 <li className="text-sm text-muted-foreground flex items-center">
                   <span className="w-5 h-5 mr-2 text-primary">✓</span>
